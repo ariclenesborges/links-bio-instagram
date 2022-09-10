@@ -60,6 +60,39 @@ main a{
     box-shadow:  5px 5px #eeaeca ; 
     transition: all .5s ease-in-out;
 }
+main a:hover{
+    opacity: .85;
+}
+
+footer{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    font-size: 1rem; 
+
+}
+@media (max-width){
+    section{
+    white:90% ;
+    padding: 30px;
+
+    }
+    header img{
+
+        width: 100px;
+    }
+    header h3{
+        font-size:1.3rem;
+    }
+    main{
+        gap: 15px;
+
+    }
+    main a{
+         padding: 10px 0;
+         box-shadow: 5px 5px #eeaeca;
+    }
+}
 
 
 
